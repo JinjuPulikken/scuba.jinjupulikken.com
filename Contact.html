@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>GoodLife Scuba</title>                                               <!--website title-->
+    <link rel="icon" type="image/x-icon" href="logo.png">
+</head>
+<body>
+<style> 
+		body {
+                margin:0;
+                padding:0;
+                background:powderblue;
+				background-size:cover;
+				background-position:left;
+				height:1200px;
+				background : linear-gradient(to bottom, rgba(0,0,0,0.4), rgba(0,0,0,1)),url("https://static.barcelo.com/content/dam/bhg/master/es/typologies/hoteles-buceo/GettyImages-163175242.jpg.bhgimg.optm1900.jpg/1625758588557.jpg");
+            }
+			
+            * {
+                box-sizing: border-box;
+            }
+
+            .column {
+                float: left;
+                padding: 10px;
+            }
+
+            .column left {
+                width: 20%;
+				border-radius: 25px;
+            }
+
+            .column right {
+                width: 80%;
+            }
+
+            .row:after {
+                content: "";
+                display: table;
+                clear: both;
+            }
+
+            .topnav {
+                background-color: #454e57;
+                overflow: visible;
+				width:100%;
+				margin-left:60px;
+				background-color:rgba(0,0,0,0.2);
+				font-family:Arial;
+				
+            }
+
+            .topnav a {
+                float: left;
+                color: #f2f2f2;
+                text-align: center;
+                padding: 14px 16px;
+                text-decoration: none;
+                font-size: 20px;
+            }
+
+            .topnav a:hover {
+                background-color: white;
+                color: black;
+            }
+
+            .topnav a.active {
+                background-color: grey;
+                color: white;
+            }
+			
+			.topnav-right{
+				
+			}
+
+            .dropdown {
+                float: left;
+                overflow: hidden;
+            }
+
+            .dropdown .dropbtn {
+                font-size: 20px;
+                border: none;
+                outline: none;
+                color: white;
+                padding: 14px 16px;
+                background-color: inherit;
+                margin: 0;
+            }
+
+            .dropdown:hover .dropbtn {
+                background-color: white;
+				font-size:20px;
+				color:black;
+            }
+
+            .dropdown-content {
+                display: none;
+                position: absolute;
+                background-color: #f9f9f9;
+                min-width: 160px;
+                box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.6);
+                z-index: 1;
+            }
+
+            .dropdown-content a {
+                  color: black;
+                  padding: 12px 16px;
+                  text-decoration: none;
+                  display: block;
+            }
+
+            .dropdown-content a:hover {
+                 background-color: #ddd;
+            }
+
+            .dropdown:hover .dropdown-content {
+                display: block;
+            }
+			
+            .intro{
+				color:white;
+				text-align: center;
+				border: 3px solid grey;
+				font-family:arial;
+				font-size:20px;
+			}
+			
+			* {
+				box-sizing: border-box;
+			}
+			
+			.section {
+				float: left;
+				width: 500px;
+				padding: 60px;
+				margin:5px solid black;
+				text-align:center;
+				position:relative;
+				
+			}
+				
+			.container {
+				border-radius: 5px;
+				background-color: #f2f2f2;
+				padding: 20px;
+			}
+			
+			.pane{
+				width: 25%;
+				min-width: 350px;
+				height: available;
+				min-height: 200px;
+				float: left;
+				border:30px;
+				column-gap:9px;
+			}
+			
+			input[type=text], select, textarea {
+				  width: 100%; /* Full width */
+				  padding: 12px; /* Some padding */ 
+				  border: 1px solid #ccc; /* Gray border */
+				  border-radius: 4px; /* Rounded borders */
+				  box-sizing: border-box; /* Make sure that padding and width stays in place */
+				  margin-top: 6px; /* Add a top margin */
+				  margin-bottom: 16px; /* Bottom margin */
+				  resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+			}
+			
+			input[type=submit] {
+				  background-color: #04AA6D;
+				  color: white;
+				  padding: 12px 20px;
+				  border: none;
+				  border-radius: 4px;
+				  cursor: pointer;
+				}
+			input[type=submit]:hover {
+				background-color: #45a049;
+			}
+
+				
+    </style>
+	
+	<div class="row">
+		<div class="column left">
+			<a href = "#"><img src="logo.png"></a>
+		</div>
+		<div class="column right">
+			<h1 style ="text-align:center;color:white;margin-left:350px;">GoodLife Scuba Diving Dubai</h1>
+				<div class="topnav">
+					<a href="Website.html">Home</a>
+					<div class="dropdown">
+						<button class="dropbtn">Packages</button>
+						<div class="dropdown-content">
+							<a href="#">Beginner</a>
+							<a href="#">Intermediate</a>
+							<a href="#">Advanced</a>
+						</div>
+					</div>
+					<div class="dropdown">
+						<button class="dropbtn">Equipment</button>
+						<div class="dropdown-content">
+							<a href="#">Hire</a>
+							<a href="#">Purchase</a>
+							<a href="#">Servicing</a>
+						</div>
+					</div>
+					<div class="topnav-right">
+						<a class ="active" href="Contact.html">Contact</a>
+						<a href="About.html">About</a>
+					</div>
+				</div>
+		</div>
+	</div>
+	<div class="container">
+		<form action="action_page.php">
+
+			<label for="fname">First Name</label>
+			<input type="text" id="fname" name="firstname" placeholder="Enter your name">
+
+			<label for="lname">Last Name</label>
+			<input type="text" id="lname" name="lastname" placeholder="Enter your last name">
+			
+			<label for="phone">Phone No.</label>
+			<input type="text" id="phone" name="phone" placeholder="Enter your phone number">
+
+			<label for="country">Emirate</label>
+			<select id="country" name="country">
+			  <option value="select emirate">Select</option>
+			  <option value="abudhabi">Abu Dhabi</option>
+			  <option value="dubai">Dubai</option>
+			  <option value="sharjah">Sharjah</option>
+			  <option value="sharjah">Ajman</option>
+			  <option value="sharjah">Ras Al Khaimah</option>
+			  <option value="sharjah">Fujairah</option>
+			</select>
+
+    <label for="subject">Message</label>
+    <textarea id="subject" name="subject" placeholder="Please write your enquiry here..." style="height:150px"></textarea>
+
+	<input type="submit" value="Submit">
+
+  </form>
+</div>
+</body>
+</html>
