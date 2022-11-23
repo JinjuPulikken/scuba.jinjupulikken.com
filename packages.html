@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/html">
+<head>
+    <meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>GoodLife Scuba</title>                                               <!--website title-->
+    <link rel="icon" type="image/x-icon" href="logo.png">                       <!--favicon-->
+</head>
+<body>
+    <style>
+            body {
+                margin:0;
+                padding:0;
+                background:powderblue;
+				background-size:cover;
+				background-position:left;
+				height:1200px;
+				background : linear-gradient(to bottom, rgba(0,0,0,0.4), rgba(0,0,0,1)),url("https://static.barcelo.com/content/dam/bhg/master/es/typologies/hoteles-buceo/GettyImages-163175242.jpg.bhgimg.optm1900.jpg/1625758588557.jpg");
+            }
+			* {
+                box-sizing: border-box;
+            }
+			.column {
+                float: left;
+                padding: 10px;
+            }
+
+            .column left {
+                width: 20%;
+				border-radius: 25px;
+            }
+
+            .column right {
+                width: 80%;
+            }
+			.row:after {
+                content: "";
+                display: table;
+                clear: both;
+            }
+
+            .topnav {
+                background-color: #454e57;
+                overflow: visible;
+				width:100%;
+				margin-left:60px;
+				background-color:rgba(0,0,0,0.2);
+				font-family:Arial;
+				
+            }
+
+            .topnav a {
+                float: left;
+                color: #f2f2f2;
+                text-align: center;
+                padding: 14px 16px;
+                text-decoration: none;
+                font-size: 20px;
+            }
+
+            .topnav a:hover {
+                background-color: white;
+                color: black;
+            }
+
+            .topnav a.active {
+                background-color: grey;
+                color: white;
+            }
+			
+			.topnav-right{
+				
+			}
+
+            .dropdown {
+                float: left;
+                overflow: hidden;
+            }
+
+            .dropdown .dropbtn {
+                font-size: 20px;
+                border: none;
+                outline: none;
+                color: white;
+                padding: 14px 16px;
+                background-color: inherit;
+                margin: 0;
+            }
+
+            .dropdown:hover .dropbtn {
+                background-color: white;
+				font-size:20px;
+				color:black;
+            }
+
+            .dropdown-content {
+                display: none;
+                position: absolute;
+                background-color: #f9f9f9;
+                min-width: 160px;
+                box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.6);
+                z-index: 1;
+            }
+
+            .dropdown-content a {
+                  color: black;
+                  padding: 12px 16px;
+                  text-decoration: none;
+                  display: block;
+            }
+
+            .dropdown-content a:hover {
+                 background-color: #ddd;
+            }
+
+            .dropdown:hover .dropdown-content {
+                display: block;
+            }
+			
+            .intro{
+				color:white;
+				text-align: center;
+				border: 3px solid grey;
+				font-family:arial;
+				font-size:20px;
+			}
+			
+			* {
+				box-sizing: border-box;
+			}
+			
+			*, *:before, *:after {
+			  box-sizing: inherit;
+			}
+
+			.box {
+			  float: left;
+			  width: 30%;
+			  margin-bottom: 16px;
+			  padding: 0 8px;
+			}
+
+			@media screen and (max-width: 650px) {
+			  .column {
+				width: 100%;
+				display: block;
+			  }
+			}
+
+			.card {
+			  background-color:#bfb3b2;
+			}
+
+			.container {
+			  padding: 0 16px;
+			}
+
+			.container::after, .row::after {
+			  content: "";
+			  clear: both;
+			  display: table;
+			}
+
+			.title {
+			  color: white;
+			}
+
+			.button {
+			  border: none;
+			  outline: 0;
+			  display: inline-block;
+			  padding: 8px;
+			  color: white;
+			  background-color: white;
+			  text-align: center;
+			  cursor: pointer;
+			  width: 100%;
+			}
+
+			.button:hover {
+			  background-color: #555;
+			}
+			
+			.photo {
+			  display: block;
+			  margin-left: auto;
+			  margin-right: auto;
+			  width: 50%;
+			}
+			
+			.boxes{
+				height:700px;
+			}
+    </style>
+
+    <div class="row">
+        <div class="column left">
+            <a href = "index.html"><img src="logo.png"></a>
+        </div>
+        <div class="column right">
+			<h1 style ="text-align:center;color:white;margin-left:350px;">GoodLife Scuba Diving Dubai</h1>
+            <div class="topnav">
+                <a href="index.html">Home</a>
+                <div class="dropdown">
+                    <button class="dropbtn">Packages</button>
+                    <div class="dropdown-content">
+                        <a href="packages.html">Beginner</a>
+                        <a href="packages.html">Intermediate</a>
+                        <a href="packages.html">Advanced</a>
+                    </div></a>
+                </div>
+                <div class="dropdown">
+                    <button class="dropbtn">Equipment</button>
+                    <div class="dropdown-content">
+                        <a href="equipment.html">Hire</a>
+                        <a href="equipment.html">Purchase</a>
+                        <a href="equipment.html">Servicing</a>
+                    </div></a>
+                </div>
+				<div class="topnav-right">
+					<a href="Contact.html">Contact</a>
+					<a href="About.html">About</a>
+				</div>
+            </div>    
+        </div>
+    </div>
+	<div class="intro">
+		<h1>DIVE INTO UNDERWATER PARADISE</h1>
+		</br>
+		<p>Scuba dive in Dubai with professionally-certified instructors.<p> 
+		<p>Do you want to master everything about scuba diving? Do you want to make it a career? Then enroll in our Advanced and Intermediate courses today!
+
+		<p>The Intermediate course is an extensive program wherein you will undergo rigorous training and internship in Scooba Life Diving for a period of seven to fifteen days. Under our tutelage, we will enhance your problem-solving skills by putting you through numerous tests and scenarios as well as teach you how to prevent and deal with underwater emergencies. No need to worry about the scuba diving equipment because it will be provided for you in this course.
+
+		<p>When you complete the program, you will be eligible to conduct scuba reviews, supervise training activities, act as professional guides, as well as manage skin diver courses and assist in Discover Scuba programs. As a divemaster, you can rise as a role model or make diving a profession</p>
+		
+    </div>
+	
+	<div class="boxes">
+		<div class="box">
+			<div class="card">
+			  <img class="photo" src = "beginner.jpg" alt="scuba packages" style="height=350px; width:300px;">
+			  <div class="container">
+				<h2 style="color:white">Beginner Scuba Diving Packages</h2>
+				<p> •	2 x recreational courses </p>
+				<p>	•	2 x open water diving sessions </p>
+				<p>	•	free equipment hire </p>
+				<p>	•	5% discount on equipment purchases</p>
+				<p><button class="button"><a href="Contact.html">Contact</button></p>
+			  </div>
+			</div>
+		</div>
+
+		<div class="box">
+			<div class="card">
+			  <img class="photo" src="intermediate.jpg" alt="scuba packages" style="height=300px; width:300px">
+			  <div class="container">
+				<h2 style="color:white">Intermediate Scuba Diving Packages</h2>
+				<p> •	2 x recreational courses </p>
+				<p>	•	4 x open water diving sessions </p>
+				<p>	•	free equipment hire </p>
+				<p>	•	10% discount on equipment purchases</p>
+				<p><button class="button"><a href="Contact.html">Contact</button></p>
+			  </div>
+			</div>
+		</div>
+		  
+		<div class="box">
+			<div class="card">
+			  <img class="photo" src="advanced.jpg" alt="scuba packages" style="height=350px; width:300px">
+			  <div class="container">
+				<h2 style="color:white">Advanced Scuba Diving Packages</h2>
+				<p> •	1 x instructor training course</p>
+				<p>	•	2 x skills development workshops </p>
+				<p>	•	2 years free equipment servicing </p>
+				<p>	•	20% discount on one liveaboard holiday.</p>	
+				<p><button class="button"><a href="Contact.html">Contact</button></p>
+			  </div>
+			</div>
+		</div>
+	</div>
+</body>
+</html>
